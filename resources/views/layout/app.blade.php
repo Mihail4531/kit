@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body x-data="{ openMenu : false }" :class="openMenu ? 'overflow-hidden' : 'overflow-visible' "  >
+<body x-data="{ openMenu : false }" :class="openMenu ? 'overflow-hidden' : 'overflow-visible'  "  class="w-full h-full"  >
     <style>
         [x-cloak] {
           display: none !important;

@@ -1,5 +1,5 @@
 <x-container>
-    <header class="flex w-full justify-between items-center bg-white drop-shadow-sm py-4 px-8">
+    <header class="flex w-full justify-between items-center bg-white drop-shadow-sm py-4 px-8 ">
 
         <!-- Logo -->
         <a href="/" class="text-lg font-bold"><img class="size-[45px]" src="{{asset("storage/cooking.png")}}" alt=""></a>

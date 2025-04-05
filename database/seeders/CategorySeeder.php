@@ -18,19 +18,19 @@ class CategorySeeder extends Seeder
                 'name' => 'Выпечка',
                 'is_active' => true,
                 'is_featured' => false,
-                "content" => "Вкусная выпечка "
+
             ],
             [
                 'name' => 'Итальянская кухня',
                 'is_active' => true,
                 'is_featured' => true,
-                 "content" => "Итальянская еда "
+
             ],
             [
                 'name' => 'Французкая кухня',
                 'is_active' => false,
                 'is_featured' => false,
-                "content" => "Французкая еда "
+
             ],
         ];
         foreach($categories as $category){

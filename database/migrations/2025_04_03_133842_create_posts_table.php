@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('small_text');
             $table->text('content');
             $table->text('image')->nullable();
+
             $table->boolean('is_active')->default(true);
             $table->boolean('is_featured')->default(false);
             $table->boolean('is_banner')->default(false);

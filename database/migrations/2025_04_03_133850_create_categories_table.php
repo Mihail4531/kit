@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name')->unique();
             $table->boolean('is_active')->default(true);
             $table->boolean('is_featured')->default(false);
-            $table->string("content");
+
             $table->timestamps();
         });
     }
